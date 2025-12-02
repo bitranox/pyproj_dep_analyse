@@ -50,7 +50,7 @@ def test_get_default_config_path_file_exists() -> None:
 def test_get_default_config_path_file_is_readable() -> None:
     result = get_default_config_path()
 
-    content = result.read_text()
+    content = result.read_text(encoding="utf-8")
 
     assert len(content) > 0
 
