@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file following
 the [Keep a Changelog](https://keepachangelog.com/) format.
 
 
+## [1.1.0] - 2025-12-03
+
+### Changed
+- Simplified logging initialization by using `lib_log_rich` default settings for `attach_std_logging()`
+
 ## [1.0.0] - 2025-12-02
 
 ### Added
